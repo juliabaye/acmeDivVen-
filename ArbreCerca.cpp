@@ -15,8 +15,9 @@ ArbreCerca::ArbreCerca()
 ArbreCerca::ArbreCerca(int t[], int n) // t nom del vector i n size de t
 {
 // per completar
-// t(n) = ...
-// t(n) es O(...)
+// t(n) = 2T(n/2) + 1
+// t(n) es O(nlogba)
+//b=2 / a=2 / k=0
 // 1 2 4 3 5 6 0
 
     arrel=iArbreCerca(t,0,n-1);
